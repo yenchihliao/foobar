@@ -1,3 +1,5 @@
+# Decrypt poorly encrypted sentences to proof that your coworkers are talking about soap opera during work time.
+# Since they are not cryptography experts, they simply map a to z, b to y, etc..
 def solution(x):
     # Your code here
     ret = ""

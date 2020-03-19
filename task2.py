@@ -1,3 +1,6 @@
+# Evil empire has a system, the version number of it includes a main version, subversion, and a fix number
+# Version number begins from 1. However, beta versions has a version number of 0
+# subversion number and fix number is optional. Sort the version numbers to please your evil boss
 def isfront(a, b):
     A = a.split('.')
     B = b.split('.')

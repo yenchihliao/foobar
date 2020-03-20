@@ -2,7 +2,7 @@ from Queue import Queue
 from copy import deepcopy
 
 class Check():
-    def __init__(self, width, height):
+    def __init__(self, height, width):
         self.width = width
         self.height = height
         self.limit = width + height - 1
@@ -84,13 +84,14 @@ def viewMaze(maze):
 import random
 from time import time
 if __name__ == '__main__':
-    # maze = [[0, 1, 1, 0], [0, 0, 0, 1], [1, 1, 0, 0], [1, 1, 1, 0]]
-    # print(solution(maze))
+    maze = [[0, 1, 1, 0], [0, 0, 0, 1], [1, 1, 0, 0], [1, 1, 1, 0]]
+    print(solution(maze))
     maze = [[0, 0, 0, 0, 0, 0], [1, 1, 1, 1, 1, 0], [0, 0, 0, 0, 0, 0], [0, 1, 1, 1, 1, 1], [0, 1, 1, 1, 1, 1], [0, 0, 0, 0, 0, 0]]
     print(solution(maze))
     # maze = [
-    # [0, 0, 0, 0, 1, 1, 1, 1, 1, 1],
-    # [0, 1, 1, 0, 0, 0, 0, 0, 0, 0],
+    # [0, 0, 0, 1, 0, 0, 0, 1, 1, 1],
+    # [0, 1, 0, 0, 0, 1, 0, 0, 0, 0]]
+    # print(solution(maze))
     # [0, 1, 0, 0, 0, 0, 0, 0, 1, 0],
     # [0, 1, 0, 0, 0, 0, 0, 0, 1, 0],
     # [0, 1, 0, 0, 0, 0, 0, 0, 1, 0],

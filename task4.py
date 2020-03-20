@@ -1,3 +1,5 @@
+# now the bunnys we saved form task3 is running out through the maze.
+# I have to find the shortest path for those bunnys with the right to secretly remove one wall as I am the personal assistence of the evil boss.
 from Queue import Queue
 from copy import deepcopy
 
